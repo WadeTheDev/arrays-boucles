@@ -40,9 +40,9 @@
     // 06
     // const sentence = "Hello Konexio"
     // const lengthOfsentense = sentence.length
-    // // let character = sentence.charAt(lengthOfsentense - 1)
+    // let character = sentence.charAt(lengthOfsentense - 1)
     
-    // for (let i = 13 ; i >= 0; i--) {
+    // for (let i = sentence.length ; i >= 0; i--) {
     //    let character = sentence.charAt(i - 1)
     //     console.log(character);
     // }
@@ -54,7 +54,6 @@
     // const secondArray = []
 
     // for (let i = sentence.length ; i >= 0; i--) {
-        
     //     let character = sentence.charAt(i - 1)
     //     secondArray.push(character)
     // }
@@ -97,3 +96,33 @@
     //     numbers[i] = Math.floor(Math.random() * (100 - 0)) 
     // }
     // console.log(numbers)
+
+
+    // 11
+    // for (let i = 11; i < 47; i++) {
+    //     if ( i % 2 === 0) {
+    //         console.log(i)
+    //     }
+    // }
+    
+    // 12
+    // for (let i = 11; i < 47; i++) {
+    //     if ( i % 2 !== 0) {
+    //         console.log(i)
+    //     }
+    // }
+    
+    // 13
+    // const numbers = [1, 2, 3, 4, 5]
+    // const squares = []
+    // const roots = []
+    
+    // console.log("Le Tableau numbers : ",numbers)
+    // for (let i = numbers.length - 1; i >= 0; i--) {    
+    //     squares.unshift(numbers[i] ** 2)
+    // }
+    // console.log("La puissance au carré de 'numbers': ",squares);
+    // for (let i = squares.length -1 ; i >= 0; i--) {
+    //     roots.unshift(Math.sqrt(squares[i]))
+    // }
+    // console.log("La racine carré de 'numbers'",roots)
